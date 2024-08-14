@@ -9,6 +9,7 @@ Queries I'd wish for, for the neem logging. The parameter-Names, except maybe th
 - add_location_designator(...)
 - add_action_result(ActionID, Result)
 - add_role(...) -> I am very unfamiliar with what Roles within KnowRob should do, so please explain what kind of roles we might need in order to log them. They refer to the role of objects during certain tasks I guess?
+  ->>> is automatically added/defined in KnowRob. Might need to be added manually.
 - add_knowrob_query -> do we want to log what pyCRAM has asked of KnowRob? Or that a Designator has been resolved with KnowRob or something else? Do we need to explicitally call this then or can KnowRob internally log, that it was queried for information during a certain time scope and what the result of that query was?
   
 
